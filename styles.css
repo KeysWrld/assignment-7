@@ -88,3 +88,18 @@ body {
 .task-completed .task-title {
     text-decoration: line-through;
 }
+
+/* Overdue task styling */
+.overdue {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+}
+
+.overdue .task-title {
+    color: red;
+    font-weight: bold;
+}
+
+.task-item {
+    margin-bottom: 15px;
+}
